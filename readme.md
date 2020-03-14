@@ -12,6 +12,6 @@ which is the transformed data
 cleanDataMean
 which is the mean values of cleanData by subject and by activity
 
-To use run_analysis please download Human Activity Recognition Using Smartphones Data Set, and set your working directory to the folder containing UCI HAR DATASET
+To use run_analysis please download Human Activity Recognition Using Smartphones Data Set (https://d396qusza40orc.cloudfront.net/getdata/projectfiles/UCI%20HAR%20Dataset.zip), and set your working directory to the folder containing UCI HAR DATASET
 
 This script will search your active directory for the data. The script takes the various data tables and combines them together, names the columns, selects the mean and std columns, then creates a seperate table of mean values. These are saved as cleanData.csv and cleanDataMean.sv respectively.
